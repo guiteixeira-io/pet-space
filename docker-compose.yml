@@ -6,7 +6,7 @@ services:
     container_name: petspace-wordpress
     restart: always
     ports:
-      - "3680:80"
+      - "4280:80"
     env_file: .env
     volumes:
       - ./wp-content:/var/www/html/wp-content
