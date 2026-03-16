@@ -1,7 +1,8 @@
 
 services:
   petspace:
-    image: wordpress:latest
+    image: petspace-wordpress
+    build: .
     container_name: petspace-wordpress
     restart: always
     ports:
